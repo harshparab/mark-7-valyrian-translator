@@ -6,19 +6,19 @@ body {
     text-align: center;
     margin-block-end: 0px;
     margin-block-start: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-image: url('dragon.jpg');
-    background-size: contain;
+    margin-left: 2rem;
+    margin-right: 2rem;
     color: white;
+    background-color: rgba(128, 128, 128, 0.473);
 }
 
 .navigation {
     padding: 1rem;
     font-size: xx-large;
     font-weight: bold;
-    color: black;
-    background: white;
+    color: white;
+    background-color: black;
+    border-end-start-radius: 1rem;
 }
 
 
@@ -32,10 +32,11 @@ body {
     margin-bottom: 1rem;
     font-size: x-large;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: white;
-    color:yellow;
+    
+    border-color: black;
+    color: black;
     text-align: center;
+    background-color: rgba(192, 191, 191, 0.473);
 }
 
 .button {
@@ -50,7 +51,7 @@ body {
     border: 2rem;
     font-size: xx-large;
     margin: 2rem;
-    background-color: red;
+    background-color:red;
     color: white;
 }
 
@@ -65,8 +66,8 @@ body {
     box-sizing: border-box;
     width: initial;
     min-height: 30vh;
-    border: 1px solid white;
-    color:yellow;
+    border: 1px solid black;
+    color:black;
     padding: 2rem;
     margin-bottom: 2rem;
     font-size: x-large;
@@ -78,17 +79,18 @@ body {
 
 .footer {
     padding: 1rem;
-    background: white;
+    background: black;
+    border-top-right-radius: 1rem;
 }
 
 .footer-heading {
     font-size: xx-large;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .footer-para {
     font-size: large;
     font-weight: bold;
-    color: black;
+    color: white;
 }
